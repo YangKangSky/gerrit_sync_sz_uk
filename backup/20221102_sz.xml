@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="ssh://gerrit01.sdt.com:29418/RDK/" name="sz-gerrit"/>
+  
+  <project dest-branch="AP6275S_Bluetooth_Linux_v001.003.006.0036.0052_20201118" name="bt-ap6275s" remote="sz-gerrit" revision="5f0aab980c8659484f89985b78735c7a285419c6" upstream="AP6275S_Bluetooth_Linux_v001.003.006.0036.0052_20201118"/>
+  <project dest-branch="sc2-rdkservices" name="meta-rdk-oem-skyworth-aml905X2" remote="sz-gerrit" revision="5778b0e72d0f691bf7cf19d2d9b9110090dc423a" upstream="sc2-rdkservices"/>
+  <project dest-branch="rdk-next" name="meta-rdk-skyworth-hx4x" remote="sz-gerrit" revision="14b7546bb75b0e2803c722db539f1e04d04f9cd5" upstream="rdk-next"/>
+  <project dest-branch="rdk-next" name="sk-amlogic-binaries" remote="sz-gerrit" revision="fcb483aa56226ef88c0c80feb778d8fed6a2d875" upstream="rdk-next"/>
+  <project dest-branch="rdk-next" name="sk-amlogic-hdcp" remote="sz-gerrit" revision="de6f243389e0458ccb8772eaad78f46cfed0ddbb" upstream="rdk-next"/>
+  <project dest-branch="rdk-next" name="sk-amlogic-uboot" remote="sz-gerrit" revision="2ca8cd189aac803452fce73a7f047438e656b177" upstream="rdk-next"/>
+  <project dest-branch="dev" name="sk-mediatek-mt7921-bt" remote="sz-gerrit" revision="3c6a8d4f27885158f8837b405002408dcee5b467" upstream="dev"/>
+  <project dest-branch="dev" name="sk-mediatek-mt7921-wifi" remote="sz-gerrit" revision="53db8ad047ecfc6c81ce34a81d96aec7a8dc0f1e" upstream="dev"/>
+  <project dest-branch="master" name="sk-realtek-8822cs-bt" remote="sz-gerrit" revision="80e03af2359437661176ad31f0a7c6522255fa2d" upstream="master"/>
+  <project dest-branch="rtl88x2CS_WiFi_linux_v5.7.3_35200.20190924_COEX20190531-0e0e" name="sk-realtek-8822cs-wifi" remote="sz-gerrit" revision="4d6c184669e1ea82c35308b9cb650209ec34bd37" upstream="rtl88x2CS_WiFi_linux_v5.7.3_35200.20190924_COEX20190531-0e0e"/>
+  <project dest-branch="master" name="sk-realtek-rtl8852bs" remote="sz-gerrit" revision="26712e74d93b45f677c43df54c31698f3fd5385e" upstream="master"/>
+  <project dest-branch="rdk-next" name="skyworth-aml905X2-manifests" remote="sz-gerrit" revision="c45090a52187a586f0a711053cda8a49df6dfbaf" upstream="rdk-next"/>
+  <project dest-branch="rdk-next" name="skyworth-aml905X2-tdk" remote="sz-gerrit" revision="9b7a53367fdf880cc572496a82e99e827f5dcd7e" upstream="rdk-next"/>
+  <project dest-branch="master" name="sony-cxd2856" remote="sz-gerrit" revision="2fe5378e97fbcc8a0d300ff0225992283529bcf3" upstream="master"/>
+  <project dest-branch="AP6275S_WiFi_Linux_v100.10.315.x_20201118" name="wifi-ap6275s" remote="sz-gerrit" revision="1209dba05d96907bfe3f98371006a3552549dae9" upstream="AP6275S_WiFi_Linux_v100.10.315.x_20201118"/>
+</manifest>
