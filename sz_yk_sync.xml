@@ -2,7 +2,7 @@
 <manifest>
   <remote name="sz-gerrit" fetch="ssh://gerrit01.sdt.com:29418/RDK/"/>
 
-  <project name="bt-ap6275s" path="bt-ap6275s" remote="sz-gerrit" />
+  <project name="bt-ap6275s" path="bt-ap6275s" remote="sz-gerrit" revision="AP6275S_Bluetooth_Linux_v001.003.006.0036.0052_20201118"/>
 
 </manifest>
 
