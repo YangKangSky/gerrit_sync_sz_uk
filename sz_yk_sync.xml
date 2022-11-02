@@ -3,7 +3,7 @@
   <remote name="sz-gerrit" fetch="ssh://gerrit01.sdt.com:29418/RDK/"/>
 
   <project name="bt-ap6275s" path="bt-ap6275s" remote="sz-gerrit" revision="AP6275S_Bluetooth_Linux_v001.003.006.0036.0052_20201118"/>
-  <project name="meta-rdk-oem-skyworth-aml905X2" path="meta-rdk-oem-skyworth-aml905X2" remote="sz-gerrit" revision="rdkservices"/>
+  <project name="meta-rdk-oem-skyworth-aml905X2" path="meta-rdk-oem-skyworth-aml905X2" remote="sz-gerrit" revision="sc2-rdkservices"/>
   <project name="meta-rdk-skyworth-hx4x" path="meta-rdk-skyworth-hx4x" remote="sz-gerrit" revision="rdk-next"/>
   <project name="sk-amlogic-binaries" path="sk-amlogic-binaries" remote="sz-gerrit" revision="rdk-next"/>
   <project name="sk-amlogic-hdcp" path="sk-amlogic-hdcp" remote="sz-gerrit" revision="rdk-next"/>
