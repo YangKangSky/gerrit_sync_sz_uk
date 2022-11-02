@@ -4,7 +4,7 @@
   <remote name="rdk-gerrit" fetch="https://code.rdkcentral.com/r/a/" review="https://code.rdkcentral.com/r/a/"/>
   <!-- uk repo -->
   <project name="driver/bt/bt-ap6275s" path="bt-ap6275s" remote="uk-gerrit" revision="AP6275S_Bluetooth_Linux_v001.003.006.0036.0052_20201118"/>
-  <project name="collaboration/oem/skyworth/yocto_oe/layers/meta-rdk-oem-skyworth-aml905X2" path="meta-rdk-oem-skyworth-aml905X2" remote="uk-gerrit" revision="sc2-rdkservices"/>
+  <project name="collaboration/oem/skyworth/yocto_oe/layers/meta-rdk-oem-skyworth-aml905X2" path="meta-rdk-oem-skyworth-aml905X2" remote="rdk-gerrit" revision="sc2-rdkservices"/>
   <project name="meta-rdk-skyworth-hx4x" path="meta-rdk-skyworth-hx4x" remote="uk-gerrit" revision="rdk-next"/>
   <project name="sk-amlogic-binaries" path="sk-amlogic-binaries" remote="uk-gerrit" revision="rdk-next"/>
   <project name="sk-amlogic-hdcp" path="sk-amlogic-hdcp" remote="uk-gerrit" revision="rdk-next"/>
