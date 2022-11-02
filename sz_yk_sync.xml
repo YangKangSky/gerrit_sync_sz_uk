@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest>
+  <remote name="sz-gerrit" fetch="ssh://gerrit01.sdt.com:29418/RDK/"/>
+
+  <project name="bt-ap6275s" path="bt-ap6275s" remote="sz-gerrit" />
+
+</manifest>
+
