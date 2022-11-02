@@ -9,11 +9,11 @@
   <project name="sk-amlogic-binaries" path="sk-amlogic-binaries" remote="uk-gerrit" revision="rdk-next"/>
   <project name="sk-amlogic-hdcp" path="sk-amlogic-hdcp" remote="uk-gerrit" revision="rdk-next"/>
   <project name="sk-amlogic-uboot" path="sk-amlogic-uboot" remote="uk-gerrit" revision="rdk-next"/>
-  <!--<project name="sk-mediatek-mt7921-bt" path="sk-mediatek-mt7921-bt" remote="uk-gerrit" revision="master"/>-->
-  <!--<project name="sk-mediatek-mt7921-wifi" path="sk-mediatek-mt7921-wifi" remote="uk-gerrit" revision="dev"/>-->
+  <project name="sk-mediatek-mt7921-bt" path="sk-mediatek-mt7921-bt" remote="uk-gerrit" revision="dev"/>
+  <project name="sk-mediatek-mt7921-wifi" path="sk-mediatek-mt7921-wifi" remote="uk-gerrit" revision="dev"/>
   <project name="sk-realtek-8822cs-bt" path="sk-realtek-8822cs-bt" remote="uk-gerrit" revision="master"/>
   <project name="sk-realtek-8822cs-wifi" path="sk-realtek-8822cs-wifi" remote="uk-gerrit" revision="rtl88x2CS_WiFi_linux_v5.7.3_35200.20190924_COEX20190531-0e0e"/>
-  <!--<project name="sk-realtek-rtl8852bs" path="sk-realtek-rtl8852bs" remote="uk-gerrit" revision="master"/>-->
+  <project name="sk-realtek-rtl8852bs" path="sk-realtek-rtl8852bs" remote="uk-gerrit" revision="master"/>
   <project name="collaboration/oem/skyworth/skyworth-aml905X2-manifests" path="skyworth-aml905X2-manifests" remote="rdk-gerrit" revision="rdk-next"/>
   <project name="collaboration/devices/skyworth-aml905X2/tdk" path="skyworth-aml905X2-tdk" remote="rdk-gerrit" revision="rdk-next"/>
   <project name="driver/demod/sony-cxd2856" path="sony-cxd2856" remote="uk-gerrit" revision="master"/>
