@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://code.rdkcentral.com/r/a/" name="rdk-gerrit" review="https://code.rdkcentral.com/r/a/"/>
+  <remote fetch="ssh://dev.caldero.com:29418/" name="uk-gerrit"/>
+  
+  <project dest-branch="rdk-next" name="collaboration/devices/skyworth-aml905X2/tdk" path="skyworth-aml905X2-tdk" remote="rdk-gerrit" revision="9b7a53367fdf880cc572496a82e99e827f5dcd7e" upstream="rdk-next"/>
+  <project dest-branch="rdk-next" name="collaboration/oem/skyworth/skyworth-aml905X2-manifests" path="skyworth-aml905X2-manifests" remote="rdk-gerrit" revision="33125df0931c3b8229325c4749eb70acc3b3d957" upstream="rdk-next"/>
+  <project dest-branch="sc2-rdkservices" name="collaboration/oem/skyworth/yocto_oe/layers/meta-rdk-oem-skyworth-aml905X2" path="meta-rdk-oem-skyworth-aml905X2" remote="rdk-gerrit" revision="82e6874360be5c9ad73d5bc515fe35a7d10c9196" upstream="sc2-rdkservices"/>
+  <project dest-branch="AP6275S_Bluetooth_Linux_v001.003.006.0036.0052_20201118" name="driver/bt/bt-ap6275s" path="bt-ap6275s" remote="uk-gerrit" revision="5f0aab980c8659484f89985b78735c7a285419c6" upstream="AP6275S_Bluetooth_Linux_v001.003.006.0036.0052_20201118"/>
+  <project dest-branch="master" name="driver/demod/sony-cxd2856" path="sony-cxd2856" remote="uk-gerrit" revision="2fe5378e97fbcc8a0d300ff0225992283529bcf3" upstream="master"/>
+  <project dest-branch="AP6275S_WiFi_Linux_v100.10.315.x_20201118" name="driver/wifi/wifi-ap6275s" path="wifi-ap6275s" remote="uk-gerrit" revision="1209dba05d96907bfe3f98371006a3552549dae9" upstream="AP6275S_WiFi_Linux_v100.10.315.x_20201118"/>
+  <project dest-branch="rdk-next" name="meta-rdk-skyworth-hx4x" remote="uk-gerrit" revision="78777299c38c1bd6ede326df5cc4303fc1201fb2" upstream="rdk-next"/>
+  <project dest-branch="rdk-next" name="sk-amlogic-binaries" remote="uk-gerrit" revision="fcb483aa56226ef88c0c80feb778d8fed6a2d875" upstream="rdk-next"/>
+  <project dest-branch="rdk-next" name="sk-amlogic-hdcp" remote="uk-gerrit" revision="de6f243389e0458ccb8772eaad78f46cfed0ddbb" upstream="rdk-next"/>
+  <project dest-branch="rdk-next" name="sk-amlogic-uboot" remote="uk-gerrit" revision="2ca8cd189aac803452fce73a7f047438e656b177" upstream="rdk-next"/>
+  <project dest-branch="dev" name="sk-mediatek-mt7921-bt" remote="uk-gerrit" revision="3c6a8d4f27885158f8837b405002408dcee5b467" upstream="dev"/>
+  <project dest-branch="dev" name="sk-mediatek-mt7921-wifi" remote="uk-gerrit" revision="53bf8fc264413b3f243653cbc2318a4ef002eff5" upstream="dev"/>
+  <project dest-branch="master" name="sk-realtek-8822cs-bt" remote="uk-gerrit" revision="af01718143de69b198435c8ec30b3381f45daec7" upstream="master"/>
+  <project dest-branch="rtl88x2CS_WiFi_linux_v5.7.3_35200.20190924_COEX20190531-0e0e" name="sk-realtek-8822cs-wifi" remote="uk-gerrit" revision="4d6c184669e1ea82c35308b9cb650209ec34bd37" upstream="rtl88x2CS_WiFi_linux_v5.7.3_35200.20190924_COEX20190531-0e0e"/>
+  <project dest-branch="master" name="sk-realtek-rtl8852bs" remote="uk-gerrit" revision="75ad6fcd1f95092d156a0b58fc325536daad7c87" upstream="master"/>
+</manifest>
